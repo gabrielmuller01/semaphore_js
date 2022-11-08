@@ -6,15 +6,15 @@ const stopblink = document.getElementById('stop')
 var interval;
 
 function semafred() {
-    semaphore.src = '../semaphore_project/img/red.png'
+    semaphore.src = '/img/red.png'
 }
 
 function semafyellow() {
-    semaphore.src = '../semaphore_project/img/yellow.png'
+    semaphore.src = '/img/yellow.png'
 }
 
 function semafgreen() {
-    semaphore.src = '../semaphore_project/img/green.png'
+    semaphore.src = '/img/green.png'
 }
 
 function semafblink() {
@@ -41,7 +41,7 @@ function semafstop(){
 
     clearInterval(interval);
 
-    semaphore.src = '../semaphore_project/img/off.png'
+    semaphore.src = '/img/off.png'
 
     stopblink.disabled  = true
 
